@@ -47,3 +47,14 @@ Basics to typescripts :
 [x]RUN THIS CODE TO SEE IF IT WORKS
 --> `npx tsc`
 /_ It should create a new directory called dist where there is an index file _/
+
+[x]INSTALL NODEMON AND `CONCURRENTLY `
+--> `npm install nodemon and concurrently`
+
+[x]YOU CAN CREATE NEW SCRIPT LIKE :
+
+--> `"build": "tsc"`
+
+/_ you can call it by `npm run build`_/
+
+-->
