@@ -57,4 +57,6 @@ Basics to typescripts :
 
 /_ you can call it by `npm run build`_/
 
--->
+--> `"dev":"concurrently -k -n COMPILER,NODEMON -c yellow,blue "tsc -w" "nodemon -w dist -q dist/index.js""`
+
+/_ This basically helps you to run nodemon and typescript compiler at the same time, with a clean text and by watching every changes in the files _/
